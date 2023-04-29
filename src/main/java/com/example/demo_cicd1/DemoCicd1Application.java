@@ -13,6 +13,11 @@ public class DemoCicd1Application {
         return "Bach test cicd1";
     }
 
+    @GetMapping("/test2")
+    public String welcome2(){
+        return "Bach test cicd1";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(DemoCicd1Application.class, args);
     }
